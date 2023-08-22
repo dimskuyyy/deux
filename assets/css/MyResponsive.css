@@ -1,0 +1,401 @@
+@media (max-width: 979px) {
+
+  .navigasi,
+  .navigasi1 {
+    padding: 8.5px 16.1px;
+  }
+
+  .group_1_navigasi {
+    padding: 0px;
+  }
+
+  .nav_link {
+    width: 25.675%;
+  }
+
+  .group_1_navigasi {
+    width: calc(100% - 25.675%);
+  }
+
+  .logo {
+    width: 119px;
+  }
+
+  .nav_search,
+  .nav_search1 {
+    width: calc(100% - 123px);
+  }
+
+  .sign_in {
+    margin-right: 0px !important;
+  }
+
+  .another,
+  .explore,
+  .sign_in {
+    display: none;
+  }
+
+  .points_menu {
+    display: inline-block;
+  }
+
+  .bg_join {
+    width: 68px;
+  }
+}
+
+@media (max-width: 839px) {
+
+  .deux_name,
+  .join,
+  .points_menu {
+    display: none;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .nav_search,
+  .nav_search1 {
+    width: calc(100% - 54px);
+  }
+
+  .nav_link {
+    width: 48px;
+  }
+
+  .group_1_navigasi {
+    width: calc(100% - 48px);
+  }
+
+  .nav_form {
+    width: 508.1px;
+  }
+}
+
+@media (max-width: 840px) {}
+
+@media (max-width: 655px) {
+  .nav_form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 840px) {
+  .nav_button {
+    display: none;
+  }
+}
+
+@media (min-width: 980px) {
+  .points_menu {
+    display: none;
+  }
+}
+
+@media (max-width: 945px) {}
+
+@media (min-width: 768px) {
+  .jumbotron .col-md-6 {
+    -ms-flex: 0 0 658px;
+    flex: 0 0 658px;
+    max-width: 658px;
+  }
+}
+
+@media (max-width: 354px) {
+  .searching_ {
+    display: none !important;
+  }
+}
+
+/*FOR GRID CONTENT RESPONSIVE*/
+@media (max-width: 624px) {
+  .grid-sizer {
+    width: 100%;
+  }
+
+  .grid-item {
+    width: calc(100% - 20px);
+    margin-right: 20px;
+  }
+
+  .container-self {
+    padding: 0px 0px 0px 20px;
+  }
+}
+
+@media (min-width: 625px) and (max-width: 980px) {
+  .grid-sizer {
+    width: 50%;
+  }
+
+  .grid-item {
+    width: calc(50% - 16px);
+    margin-right: 16px;
+  }
+
+  .container-self {
+    padding: 0px 0px 0px 16px;
+  }
+}
+
+@media(min-width:768px) {
+  .category-list li:nth-child(3n - 2) {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+
+  .category-list li:nth-child(3n - 1) {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .category-list li:nth-child(3n + 0) {
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+  .category-list li:nth-child(2n - 1) {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+
+  .category-list li:nth-child(2n - 0) {
+    padding-right: 0;
+    padding-left: 20px;
+  }
+}
+
+/* To change the amount of columns on larger devices, uncomment the code below */
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .grid-sizer,
+  .grid-item {
+      width: 33.333%;
+  }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+  .grid-sizer,
+  .grid-item {
+      width: 25%;
+  }
+  }
+  @media (min-width: 1200px) {
+  .grid-sizer,
+  .grid-item {
+      width: 20%;
+  }
+  } */
+
+
+/*COLCADE.JS DELETED  */
+/* @media (min-width: 980px) {
+  .grid-col--2 {
+    display: inline-block;
+  }
+}
+@media (min-width: 625px) {
+  .grid-col--3 {
+    display: inline-block;
+  }
+} */
+
+
+
+
+
+
+/* Login - responsive */
+
+
+
+@media screen and (max-width: 1050px) {
+  .login-container {
+    grid-gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .form {
+    width: 290px;
+  }
+
+  .login-content h2 {
+    font-size: 2.4rem;
+    margin: 8px 0;
+  }
+
+  .img img {
+    width: 400px;
+  }
+
+  .remember-label::after {
+    top: -0.7px;
+    left: -3.5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .login-container {
+    grid-template-columns: 1fr;
+  }
+
+  .login-content {
+    padding: 0px 20%;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .remember-label::after {
+    left: -3.2px;
+  }
+
+  .wave {
+    display: none;
+  }
+
+  .login-content {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .login-content {
+    padding: 0px;
+  }
+}
+
+@media (max-width:640px) {
+  .account-data-views {
+    flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .account-data-detail {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .review-image-page {
+    flex-direction: column;
+    -ms-flex-direction: column;
+    align-items: center;
+  }
+
+  .image-review {
+    width: 100%;
+  }
+
+  .image-detail {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .caption-of-image {
+    min-height: 100px;
+    height: 300px;
+    /* max-height: 1000px; */
+  }
+}
+
+/* @media (max-width:360px){
+  .account-icon-list{
+
+  }
+  .account.list-icon{
+    width: 130px;
+  }
+} */
+
+@media (max-width:897px) {
+  .form-upload {
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+  }
+
+  .input-section-two {
+    width: 100%;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .input-section-one,
+  .image-upload {
+    width: 49%;
+    border: none;
+  }
+
+  .image-upload {
+    /* padding:0; */
+    border-right: 1px solid #ddd;
+  }
+
+  #type-upload,
+  .input-file-upload {
+    width: 100%;
+  }
+
+  .input-section-one {
+    padding: 0;
+  }
+}
+
+@media (max-width:550px) {
+
+  .input-section-one,
+  .input-section-two,
+  .image-upload {
+    width: 100%;
+    border: none;
+  }
+
+  .input-section-one {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width:992px) {
+  .review-image-page.resp {
+    flex-direction: column !important;
+    -ms-flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .image-review.resp {
+    width: 100% !important;
+  }
+
+  .image-detail.resp {
+    width: 100% !important;
+    margin-top: 25px !important;
+  }
+
+  .caption-of-image.resp {
+    min-height: 100px !important;
+    /* height: 300px!important; */
+    /* max-height: 1000px; */
+  }
+
+  .semantic-item-content {
+    margin-left: 24px !important;
+  }
+}
